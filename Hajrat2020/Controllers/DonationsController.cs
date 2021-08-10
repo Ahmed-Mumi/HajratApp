@@ -99,7 +99,7 @@ namespace Hajrat2020.Controllers
                 var donationVM = new DonationViewModel();
                 donationVM = await PopulateDonationInformations(donationVM);
                 return View("AddEditDonation", donationVM);
-                //return View("AddEditDonation", donationViewModel);
+                //return View("AddEditDonation", donationViewModel);;
             }
             if (donationViewModel.ImageUpload != null)
             {
